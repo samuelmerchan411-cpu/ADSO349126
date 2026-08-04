@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(180deg,#37d6d1,#43d487);
+    font-family: Poppins, sans-serif;
+    color: white;
+}
+
+main{
+    padding: 20px;
+}
+
+/* Botón volver */
+.header-container{
+    margin-bottom: 30px;
+}
+
+.btn-volver{
+    width: 100px;
+    padding: 8px 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    background: rgba(255,255,255,.65);
+    border-radius: 40px;
+    color: black;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.btn-volver:hover{
+    background: white;
+    transform: scale(1.05);
+}
+
+.btn-volver span{
+    width: 28px;
+    height: 28px;
+    background: #37d66f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-volver h4{
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Contenido */
+.content{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content h1{
+    margin: 0;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.content h3{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
